@@ -3895,8 +3895,7 @@ label {
       width: 30px; }
 
 .s_product_text {
-  margin-left: -15px;
-  margin-top: 65px; }
+  margin-left: -15px; }
   @media (max-width: 575px) {
     .s_product_text {
       margin-left: 0px; } }
@@ -5791,4 +5790,129 @@ label {
   .footer-text i {
     color: #ffba00; }
 
+
+  /* CSS Khung gio dat san   */
+  body {
+      font-family: Arial, sans-serif;
+  }
+  .time-slots {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  .time-slot {
+      flex-basis: calc(25% - 10px); /* 4 khung giờ trên mỗi hàng */
+      margin-bottom: 10px;
+  }
+  .time-slot label {
+      display: block;
+      padding: 10px;
+      cursor: pointer;
+      background-color: #fff; /* Màu nền */
+      border-radius: 5px; /* Bo tròn viền */
+      transition: background-color 0.3s; /* Hiệu ứng chuyển đổi màu nền */
+  }
+  .time-slot input[type="radio"] {
+      display: none;
+  }
+  .time-slot input[type="radio"]:checked + label {
+      background-color: #3498db; /* Màu nền khi được chọn */
+      color: #fff; /* Màu văn bản khi được chọn */
+  }
+  /* CSS Khung gio dat san   */
+
+/* CSS Trang Lich su giao dich */
+  .container_history {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.h1_history {
+  text-align: center;
+}
+.table_history {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.th_history td,th {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+.tr_history th {
+  background-color: #f2f2f2;
+}
+/*End CSS Trang Lich su giao dich */
+
+/* CSS Yeu cau huy san  */
+.cancel-button-container {
+  text-align: center;
+}
+
+.cancel-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover state */
+.cancel-button:hover {
+  background-color: #c62828;
+}
+/* CSS Yeu cau huy san  */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+  background-color: #c62828;
+}
 /*# sourceMappingURL=main.css.map */
