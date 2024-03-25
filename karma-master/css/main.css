@@ -5824,7 +5824,8 @@ label {
 /* CSS Trang Lich su giao dich */
   .container_history {
     max-width: 800px;
-    margin: 20px auto;
+    max-height: 800px;
+    margin: 8 0px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
@@ -5914,5 +5915,59 @@ label {
 
 .form-group button:hover {
   background-color: #c62828;
+}
+
+/* CSS huy san */
+.container-process {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.h1-request {
+  text-align: center;
+}
+
+.request {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.request-info {
+  flex: 1;
+}
+
+.request-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.process-btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 20px;
+}
+
+.accept-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.reject-btn {
+  background-color: #f44336;
+  color: white;
+}
+.process-btn:hover {
+  background-color: #555;
 }
 /*# sourceMappingURL=main.css.map */
